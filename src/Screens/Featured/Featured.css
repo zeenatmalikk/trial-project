@@ -1,0 +1,82 @@
+.featured-card-container {
+  background-color: #fff;
+/* display: flex;align-items: center;flex-direction: column; */
+  box-shadow: 0 4px 8px 0 gray;
+  width: 100%;
+  border-radius: 7px;
+  height: 300px;
+  
+}
+.featured-title{
+  font-size: 45px;
+  text-align: center;
+}
+.company-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 54%;
+  padding:  20px 0 0 20px;
+ 
+}
+.f-job-dets{
+  padding: 0 20px;
+
+}
+.co-name{
+    font-size: 17px ;
+    font-weight: 600;
+    margin: 0;
+    
+}
+.job-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 30px;
+    margin: 10px 0 0px 0;
+}
+.location{
+  margin: 0;
+  font-size: 13px;
+  text-align: left;
+  padding: 0;
+}
+
+.job-type{
+    font-size: 15px;
+    color: lightgray;
+    text-align: left;
+
+}
+.job-desc{
+    font-size: 16px;
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+}
+.salary-flex{
+    display: flex;
+     align-items: center;
+    justify-content: space-around; 
+    padding:  0px 0 0 0px;
+  width: 66%;
+
+}
+.co-icon{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.apply-btn{
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  outline: none;
+  background-color: #4540DB;
+  color: #fff;
+  border: 1px solid #4540DB;
+}
+.salary-amnt{
+  font-weight: 700;
+}

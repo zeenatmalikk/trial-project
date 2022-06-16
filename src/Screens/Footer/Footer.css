@@ -1,0 +1,18 @@
+.footer-container{
+    display: flex;align-items: center;justify-content: center;
+    border-bottom: 2px solid #333;
+}
+.footer-links{
+   flex-direction: column;
+    display: flex;align-items: center;justify-content: center;
+padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: initial;
+    padding-top: 10px ;
+}
+.link-container{
+    padding: 10px 0;
+  
+}
