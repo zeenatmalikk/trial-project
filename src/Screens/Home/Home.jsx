@@ -13,7 +13,7 @@ const Home = () => {
         <CardContainer/>
         <FeaturedJobs/>
         <CvContainer/>
-        <Newsletter/>
+        {/* <Newsletter/> */}
         {/* <Footer/> */}
     </div>
   )
